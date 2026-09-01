@@ -1,0 +1,10 @@
+Yapay Zeka ve Makine Öğrenmesi Temelleri
+
+Yapay Zeka (AI), insan zekasını taklit edebilen, öğrenebilen ve problem çözebilen bilgisayar sistemlerini ifade eder. 
+Makine öğrenmesi (ML), bilgisayarlara açıkça programlanmadan verilerden öğrenme yeteneği veren bir yapay zeka alt dalıdır.
+
+Derin Öğrenme (Deep Learning), yapay sinir ağlarını kullanarak daha karmaşık örüntüleri (örneğin görüntü ve ses tanıma) çözen makine öğrenmesi türüdür. Büyük dil modelleri (LLM), derin öğrenme mimarilerinden biri olan Transformer ağlarını temel alır. 
+
+RAG (Retrieval-Augmented Generation), büyük dil modellerinin bilmedikleri bilgileri harici bir veri kaynağından (örneğin pdf dosyaları, şirket içi belgeler) arayıp bulmasını, ardından bulduğu bu bağlamı kullanarak daha doğru cevaplar üretmesini sağlayan bir mimaridir. RAG, modelin halüsinasyon görmesini (yanlış bilgi uydurmasını) büyük ölçüde engeller.
+
+Foundry Local, Microsoft tarafından geliştirilmiş, yapay zeka modellerini doğrudan bilgisayarınızda (yerel olarak) çalıştırmanızı sağlayan bir platformdur. İnternet bağlantısı gerektirmez, veri gizliliğini en üst düzeye çıkarır ve Azure aboneliğine ihtiyaç duymaz. Windows üzerinde ONNX Runtime kullanarak performanslı bir şekilde çalışır.
