@@ -1,10 +1,61 @@
-Yapay Zeka ve Makine Öğrenmesi Temelleri
+# Yapay Zeka ve Makine Öğrenmesi Sıkça Sorulan Sorular (SSS)
 
-Yapay Zeka (AI), insan zekasını taklit edebilen, öğrenebilen ve problem çözebilen bilgisayar sistemlerini ifade eder. 
-Makine öğrenmesi (ML), bilgisayarlara açıkça programlanmadan verilerden öğrenme yeteneği veren bir yapay zeka alt dalıdır.
+## 1. Yapay Zeka (AI) Nedir?
+Yapay Zeka (Artificial Intelligence), insan zekasını taklit edebilen, öğrenebilen, akıl yürütebilen ve problem çözebilen bilgisayar sistemlerini ifade eder. Verileri analiz ederek karar verme süreçlerini otomatikleştirir ve insanların yapabileceği karmaşık görevleri bilgisayarların yapmasını sağlar. 
 
-Derin Öğrenme (Deep Learning), yapay sinir ağlarını kullanarak daha karmaşık örüntüleri (örneğin görüntü ve ses tanıma) çözen makine öğrenmesi türüdür. Büyük dil modelleri (LLM), derin öğrenme mimarilerinden biri olan Transformer ağlarını temel alır. 
+## 2. Makine Öğrenmesi (ML) Nedir?
+Makine öğrenmesi (Machine Learning), bilgisayarlara açıkça programlanmadan (kural yazılmadan) verilerden öğrenme yeteneği veren bir yapay zeka alt dalıdır. Sisteme ne kadar çok veri sağlanırsa, sistem o kadar iyi öğrenir ve doğru tahminler üretir.
 
-RAG (Retrieval-Augmented Generation), büyük dil modellerinin bilmedikleri bilgileri harici bir veri kaynağından (örneğin pdf dosyaları, şirket içi belgeler) arayıp bulmasını, ardından bulduğu bu bağlamı kullanarak daha doğru cevaplar üretmesini sağlayan bir mimaridir. RAG, modelin halüsinasyon görmesini (yanlış bilgi uydurmasını) büyük ölçüde engeller.
+## 3. Derin Öğrenme (Deep Learning) Nedir?
+Derin Öğrenme, insan beynindeki nöronların yapısından ilham alan yapay sinir ağlarını (Artificial Neural Networks) kullanarak çok karmaşık örüntüleri çözen bir makine öğrenmesi türüdür. Görüntü tanıma ve doğal dil işlemede çığır açmıştır.
 
-Foundry Local, Microsoft tarafından geliştirilmiş, yapay zeka modellerini doğrudan bilgisayarınızda (yerel olarak) çalıştırmanızı sağlayan bir platformdur. İnternet bağlantısı gerektirmez, veri gizliliğini en üst düzeye çıkarır ve Azure aboneliğine ihtiyaç duymaz. Windows üzerinde ONNX Runtime kullanarak performanslı bir şekilde çalışır.
+## 4. Doğal Dil İşleme (NLP) Nedir?
+Doğal Dil İşleme (Natural Language Processing), bilgisayarların insan dilini anlamasını, yorumlamasını ve üretmesini sağlayan yapay zeka alanıdır. Çeviri, duygu analizi ve metin özetleme gibi işlemleri kapsar.
+
+## 5. Büyük Dil Modelleri (LLM) Nedir?
+Büyük Dil Modelleri (Large Language Models), milyarlarca parametre ve devasa metin verileriyle eğitilmiş yapay zeka modelleridir. GPT, Llama, Phi ve Qwen gibi modeller bu sınıfa girer; metin yazma, kod üretme ve diyalog kurmada uzmandırlar.
+
+## 6. RAG (Retrieval-Augmented Generation) Nedir?
+RAG (Geri Getirim Artırımlı Üretim), dil modellerinin bilmedikleri bilgileri harici bir veri kaynağından (pdf dosyaları, şirket belgeleri) arayıp bulmasını ve bu "bağlamı" kullanarak daha doğru cevaplar üretmesini sağlayan mimaridir.
+
+## 7. RAG Neden Kullanılır ve Avantajları Nelerdir?
+RAG, dil modellerinin halüsinasyon görmesini (bilgi uydurmasını) engeller. Ayrıca modeli yeniden eğitmeye gerek kalmadan en güncel ve kişisel/şirket içi verilere dayanarak cevap vermesini sağlar.
+
+## 8. Embedding (Gömme) Modelleri Nedir?
+Embedding modelleri, metinleri bilgisayarın anlayabileceği sayısal vektör dizilerine dönüştürür. Metinlerin anlamsal olarak birbirine ne kadar yakın olduğunu matematiksel olarak hesaplamamızı sağlar.
+
+## 9. Vektör Veritabanı Nasıl Çalışır?
+Vektör veritabanları, metinlerin veya görsellerin embedding vektörlerini saklar. Kullanıcı bir arama yaptığında, arama sorgusu da vektöre çevrilir ve en yakın (en benzer) vektörler bulunarak eşleştirilir (Kosinüs Benzerliği).
+
+## 10. Microsoft Foundry Local Nedir?
+Foundry Local, yapay zeka modellerini hiçbir bulut veya internet bağlantısı olmadan doğrudan kendi bilgisayarınızda (yerel olarak) çalıştırmanızı sağlayan Microsoft platformudur. Veri gizliliği sağlar ve donanımınızı (CPU/GPU/NPU) verimli kullanır.
+
+## 11. Yapay Zeka Halüsinasyonu Nedir?
+Yapay zeka modellerinin emin olmadıkları konularda, sanki doğruymuş gibi tamamen uydurma ve yanlış bilgiler üretmesine "halüsinasyon" (hallucination) denir.
+
+## 12. Prompt Engineering (İstem Mühendisliği) Nedir?
+İstem mühendisliği, yapay zeka modellerinden en iyi ve en doğru cevabı alabilmek için soruyu veya komutu (prompt) en uygun, net ve bağlamı içerecek şekilde tasarlama sanatıdır.
+
+## 13. Gözetimli Öğrenme (Supervised Learning) Nedir?
+Verilerin etiketli (cevaplarının belli) olduğu öğrenme türüdür. Model, girdi verisi ile çıktı (cevap) arasındaki ilişkiyi öğrenir. Örnek: Kedi ve köpek fotoğraflarının "bu kedi", "bu köpek" olarak etiketlenip modele verilmesi.
+
+## 14. Gözetimsiz Öğrenme (Unsupervised Learning) Nedir?
+Verilerin etiketli olmadığı öğrenme türüdür. Model, verilerin kendi içindeki gizli örüntüleri, benzerlikleri ve gruplaşmaları bulmaya çalışır. Örnek: Müşteri segmentasyonu.
+
+## 15. Pekiştirmeli Öğrenme (Reinforcement Learning) Nedir?
+Modelin (ajanın) bir ortamda deneme-yanılma yoluyla öğrenmesidir. Doğru hareketler ödüllendirilir, yanlış hareketler cezalandırılır. Oyun oynayan yapay zekalar veya robotik kontrol bu yöntemle çalışır.
+
+## 16. Bilgisayarlı Görü (Computer Vision) Nedir?
+Bilgisayarların dijital görüntülerden (fotoğraf ve videolar) anlamlı bilgiler çıkarmasını sağlayan alandır. Yüz tanıma, otonom araçlardaki nesne algılama sistemleri bu alanın ürünleridir.
+
+## 17. Fine-Tuning (İnce Ayar) Nedir?
+Önceden eğitilmiş devasa bir modelin, daha küçük ve spesifik bir veri setiyle tekrar eğitilerek belli bir göreve (örneğin sadece tıp sorularını yanıtlamaya veya belli bir üsluba) özelleştirilmesidir.
+
+## 18. Zero-Shot ve Few-Shot Learning Nedir?
+Zero-shot, modelin daha önce o görev için hiç örnek görmeden doğru cevabı bulabilmesidir. Few-shot ise modele prompt içerisinde 2-3 tane örnek gösterilerek ne yapacağının anlatılmasıdır.
+
+## 19. ONNX Runtime Nedir?
+Açık kaynaklı bir makine öğrenmesi çıkarım (inference) motorudur. Modellerin farklı donanımlarda (CPU, GPU) ve farklı platformlarda hızlı, optimize ve verimli bir şekilde çalışmasını sağlar. Foundry Local bu motoru kullanır.
+
+## 20. Üretken Yapay Zeka (Generative AI) Nedir?
+Sadece veri analiz eden değil, aynı zamanda yeni veriler (metin, görsel, kod, ses veya video) "üretebilen" yapay zeka türüdür. ChatGPT, Midjourney, DALL-E gibi araçlar üretken yapay zekalardır.
